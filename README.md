@@ -1,10 +1,10 @@
-# Juno-Ecommerce/theme-actions
+# Passenger-Clothing/theme-actions
 
 [About this repo](#about-this-repo) | [Usage](#usage) | [Configuration](#configuration)
 
 ## About this repo
 
-GitHub Actions used across Juno Ecommerce Shopify projects.
+GitHub Actions used across Passenger projects.
 
 ## Usage
 

@@ -7,7 +7,7 @@ async function runAction() {
   if (!process.env.SHOPIFY_CLI_THEME_TOKEN)
     throw new Error("Missing [SHOPIFY_CLI_THEME_TOKEN] environment variable");
 
-  const themeName = `Juno/Preview - ${process.env.GITHUB_HEAD_REF}`;
+  const themeName = `Passenger/Preview - ${process.env.GITHUB_HEAD_REF}`;
 
   logStep("Retrieve preview theme id");
   const allThemes = await getStoreThemes({

@@ -1,4 +1,4 @@
-# Juno-Ecommerce/cache-and-install-action
+# Passenger-Clothing/cache-and-install-action
 
 [About this repo](#about-this-repo) | [Usage](#usage) | [Configuration](#configuration)
 
@@ -10,13 +10,13 @@ Cache and install, optionally generates production build.
 
 ```yml
 - name: "Cache and install"
-  uses: Juno-Ecommerce/theme-actions/.github/actions/cache-and-install@main
+  uses: Passenger-Clothing/theme-actions/.github/actions/cache-and-install@main
   with:
     build: true # optional, defaults to `false`
 ```
 
 ## Configuration
 
-The `Juno-Ecommerce/cache-and-install-action` accepts the following arguments:
+The `Passenger-Clothing/cache-and-install-action` accepts the following arguments:
 
 - `build` - (optional, default: `false`) Generate production build
