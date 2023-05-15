@@ -1,4 +1,4 @@
-# Juno-Ecommerce/theme-preview-create
+# Passenger-Clothing/theme-preview-create
 
 [About this repo](#about-this-repo) | [Usage](#usage) | [Configuration](#configuration)
 
@@ -9,7 +9,7 @@ Create preview theme on Pull Requests using GitHub Actions.
 ## Usage
 
 ```yml
-- uses: Juno-Ecommerce/theme-actions/.github/workflows/theme-preview-create.yml@main
+- uses: Passenger-Clothing/theme-actions/.github/workflows/theme-preview-create.yml@main
   secrets:
     PASSWORD: ${{ secrets.PASSWORD }}
     SHOP: ${{ secrets.SHOP }}
@@ -18,7 +18,7 @@ Create preview theme on Pull Requests using GitHub Actions.
 
 ## Configuration
 
-The `Juno-Ecommerce/theme-preview-create` accepts the following arguments:
+The `Passenger-Clothing/theme-preview-create` accepts the following arguments:
 
 - `PASSWORD` - (required) The Shopify store's private app password.
 - `SHOP` - (required) The shopify development store i.e. `my-store.myshopify.com`

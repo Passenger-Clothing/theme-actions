@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Prepare
-        uses: Juno-Ecommerce/theme-actions/.github/actions/cache-and-install@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/cache-and-install@main
 
       - name: Lint CSS
         run: pnpm run lint:css
@@ -27,7 +27,7 @@ jobs:
     if: inputs.disableThemeCheck != true
     steps:
       - name: Prepare
-        uses: Juno-Ecommerce/theme-actions/.github/actions/cache-and-install@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/cache-and-install@main
         with:
           build: true
 

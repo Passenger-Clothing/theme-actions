@@ -1,5 +1,5 @@
 {
-  "description": "Github actions used across Juno Ecommerce Shopify projects.",
+  "description": "Github actions used across Passenger Shopify projects.",
   "license": "MIT",
   "scripts": {
     "build": "node ./scripts/build.js"

@@ -1,4 +1,4 @@
-# Juno-Ecommerce/theme-deploy-action
+# Passenger-Clothing/theme-deploy-action
 
 [About this repo](#about-this-repo) | [Usage](#usage) | [Configuration](#configuration)
 
@@ -9,7 +9,7 @@ Deploy Shopify theme using GitHub Actions.
 ## Usage
 
 ```yml
-- uses: Juno-Ecommerce/theme-actions/.github/actions/theme-deploy@main
+- uses: Passenger-Clothing/theme-actions/.github/actions/theme-deploy@main
   with:
     SHOPIFY_PASSWORD: ${{ secrets.PASSWORD }}
     SHOPIFY_SHOP: ${{ secrets.SHOP }}
@@ -18,7 +18,7 @@ Deploy Shopify theme using GitHub Actions.
 
 ## Configuration
 
-The `Juno-Ecommerce/theme-deploy-action` accepts the following arguments:
+The `Passenger-Clothing/theme-deploy-action` accepts the following arguments:
 
 - `SHOPIFY_PASSWORD` - (required) The Shopify store's private app password.
 - `SHOPIFY_SHOP` - (required) The shopify development store i.e. `my-store.myshopify.com`.

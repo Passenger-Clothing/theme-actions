@@ -26,12 +26,12 @@ jobs:
       SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.PASSWORD }}
     steps:
       - name: Prepare
-        uses: Juno-Ecommerce/theme-actions/.github/actions/cache-and-install@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/cache-and-install@main
         with:
           build: true
 
       - name: Update (+ create) preview theme
-        uses: Juno-Ecommerce/theme-actions/.github/actions/theme-preview-create@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/theme-preview-create@main
         with:
           IGNORED_FILES_PUSH: ${{ inputs.IGNORED_FILES_PUSH }}
           IGNORED_FILES_PULL: ${{ inputs.IGNORED_FILES_PULL }}

@@ -25,7 +25,7 @@ jobs:
           environment: production
 
       - name: Prepare
-        uses: Juno-Ecommerce/theme-actions/.github/actions/cache-and-install@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/cache-and-install@main
         with:
           build: true
 
@@ -42,7 +42,7 @@ jobs:
           SHOPIFY_FLAG_STORE: ${{ secrets.SHOP }}
           SHOPIFY_FLAG_THEME_ID: ${{ secrets.THEME_ID }}
           SHOPIFY_CLI_THEME_TOKEN: ${{ secrets.PASSWORD }}
-        uses: Juno-Ecommerce/theme-actions/.github/actions/theme-deploy@main
+        uses: Passenger-Clothing/theme-actions/.github/actions/theme-deploy@main
 
       - name: Update deployment status (success)
         if: ${{ success() }}

@@ -1,4 +1,4 @@
-# Juno-Ecommerce/theme-preview-delete
+# Passenger-Clothing/theme-preview-delete
 
 [About this repo](#about-this-repo) | [Usage](#usage) | [Configuration](#configuration)
 
@@ -9,7 +9,7 @@ Delete preview theme using GitHub Actions.
 ## Usage
 
 ```yml
-- uses: Juno-Ecommerce/theme-actions/.github/actions/theme-preview-delete@main
+- uses: Passenger-Clothing/theme-actions/.github/actions/theme-preview-delete@main
   with:
     SHOPIFY_PASSWORD: { your_app_password }
     SHOPIFY_SHOP: { your_shop }
@@ -17,7 +17,7 @@ Delete preview theme using GitHub Actions.
 
 ## Configuration
 
-The `Juno-Ecommerce/theme-preview-delete` accepts the following arguments:
+The `Passenger-Clothing/theme-preview-delete` accepts the following arguments:
 
 - `SHOPIFY_PASSWORD` - (required) The Shopify store's private app password.
 - `SHOPIFY_SHOP` - (required) The shopify development store i.e. `my-store.myshopify.com`
