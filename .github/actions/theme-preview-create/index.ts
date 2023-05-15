@@ -109,5 +109,7 @@ async function runAction() {
 try {
   runAction();
 } catch (error) {
+  // Log error which hopefully is more readable
+  console.log(error);
   core.setFailed(error);
 }
